@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Imagen banner -->
+    <img class="img-fluid" src="img/b4.jpg" alt="Chania">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Logo</a>
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- Contenido -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 hidden-xs columna"></div>
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-12 centro">
+                <!-- Fonts -->
+                <h2>Font Size & Style</h2>
+                <ul>
+                    <li><code class="w3-codespan">Font Size</code> 16px</li>
+                    <li><code class="w3-codespan">Font Style</code> Native font stack</li>
+                </ul>
+                <!-- Grid System -->
+                <h2>Grid System</h2>
+                <h4>5 niveles</h4>
+                <ul>
+                    <li><code class="w3-codespan">.col-</code> (extra small devices - screen width less than 576px)</li>
+                    <li><code class="w3-codespan">.col-sm-</code> (small devices - screen width equal to or greater
+                        than 576px)</li>
+                    <li><code class="w3-codespan">.col-md-</code> (medium devices - screen width equal to or greater
+                        than 768px)</li>
+                    <li><code class="w3-codespan">.col-lg-</code> (large devices - screen width equal to or greater
+                        than 992px)</li>
+                    <li><code class="w3-codespan">.col-xl-</code> (xlarge devices - screen width equal to or greater
+                        than 1200px)</li>
+                </ul>
+                <!-- Cards -->
+                <!-- Panels & Wells -->
+                <h2>Cards</h2>
+                <h4>Substituye Panels y Wells</h4>
+                <div class="card">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">Content</div>
+                </div>
+                <br>
+                <div class="card bg-danger text-white">
+                    <div class="card-body">Danger card</div>
+                </div>
+                <!-- Pagination -->
+                <h2>Pagination</h2>
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+                <!-- Tablas -->
+                <h2>Tablas</h2>
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>Mary</td>
+                                <td>Moe</td>
+                                <td>mary@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>July</td>
+                                <td>Dooley</td>
+                                <td>july@example.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Icons -->
+                <h2>Icons</h2>
+                <i class="fas fa-cloud"></i>
+                <i class="fas fa-coffee"></i>
+                <i class="fas fa-car"></i>
+                <i class="fas fa-file"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 hidden-xs columna"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12" style="padding-bottom: 700px"></div>
+        </div>
+    </div>
+</body>
+
+</html>

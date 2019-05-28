@@ -1,0 +1,19 @@
+
+#banner {
+    padding: 0px;
+    max-height: 270px;
+    background-color: #222222;
+}
+
+/* posición nav-bar */
+
+.affix {
+    top: 0px;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+.affix + .container-fluid {
+    padding-top: 72px;
+}
+
